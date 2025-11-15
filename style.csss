@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, #d4a62f, #ff9e14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT LOGO */
+.logo-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-box img {
+    width: 350px;
+    height: auto;
+}
+
+/* RIGHT LOGIN CARD */
+.login-box {
+    flex: 1;
+    max-width: 380px;
+    background: #ecd8ad;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.login-box button {
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-box button:hover {
+    background: #f7f7f7;
+}
+
+.login-box .text-btn {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.login-box .text-btn:hover {
+    text-decoration: underline;
+}
