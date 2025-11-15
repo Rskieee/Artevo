@@ -1,4 +1,4 @@
-// Simple functional examples
+// Simple function
 
 // Login form handler
 document.getElementById("loginForm").addEventListener("submit", function(event) {
